@@ -170,7 +170,7 @@ main {
   /* create a 12 column grid */
   grid-template-columns: repeat(12, 1fr);
   /* set each row to be atleast 150px tall and a max of 1fr */
-  grid-auto-rows: minmax(150px, 1fr);
+  grid-auto-rows: repeat(3, minmax(150px, 1fr));
 }
 
 .grid-item {
@@ -189,14 +189,17 @@ main {
   font-size: 0.9rem;
 }
 
-/* feature first portfolio item */
+/* feature first portfolio item 
 .grid-item:first-child {
-    grid-column: span 8;
+    grid-column: span 4;
     grid-row: span 2;
-}
+}*/
 
 .grid-item:hover {
   background-color: rgba(0, 0, 0, 0.3);
+  grid-column: span 4;
+  grid-row: span 2;
+}
 }
 
 .grid-item div {
