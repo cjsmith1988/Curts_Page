@@ -20,12 +20,7 @@ body {
   line-height: 1.5;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h1, h2, h3, h4, h5, h6 {
   margin: 0;
 }
 
@@ -39,8 +34,19 @@ header {
   flex-direction: row;
   justify-content: space-between;
   flex-wrap: wrap;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
   align-items: center;
-  background-color: var(--tertiary);
+  background: rgb(68, 88, 120);
+  background-image: url("../images/Toronto-Skyline.jpg"), linear-gradient(180deg, var(--secondary) 0%, var(--primary) 100%);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 80%;
+  background-blend-mode: soft-light;
+  background-attachment: fixed;
+  color: var(--light);
+  z-index: 9999;
   box-shadow: 0 5px 35px rgba(146, 204, 206, 0.4);
 }
 
@@ -86,23 +92,30 @@ main {
   margin-bottom: 45px;
 }
 
+
 .hero-banner {
   background: rgb(68, 88, 120);
-  background-image: url("../images/02-hero-bg.jpg"), linear-gradient(180deg, var(--secondary) 0%, var(--primary) 100%);
+  background-image: url("../images/Toronto-Skyline.jpg"), linear-gradient(180deg, var(--secondary) 0%, var(--primary) 100%);
   background-size: cover;
-  background-position: center;
+  background-position: 80%;
   background-blend-mode: soft-light;
-  min-height: 30vh;
+  min-height: 70vh;
   color: var(--light);
   padding: 2% 6%;
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
   align-items: flex-end;
   text-align: right;
 }
 
 .hero-banner div {
-  flex: 0 0 90%;
+  flex: 0 0 50%;
+}
+
+.hero-banner img {
+  width: 35%;
+  height: 30%;
+  float: left;
 }
 
 .hero-banner h2 {
@@ -112,6 +125,7 @@ main {
   padding: 5px 10px;
   font-size: 2.3rem;
   line-height: 1.2;
+  float: right;
   display: inline;
 }
 
