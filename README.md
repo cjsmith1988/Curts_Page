@@ -51,5 +51,6 @@ THEN I am presented with a responsive layout that adapts to my viewport
 Mock-Up
 
 
-![Curts Page](assets/images/cjsmith1988.github.io_Screenshot_2020-12-13_Curt_s_Page.png)
+![Curts Page](assets/images/Screenshot_2020-12-13%20Curt's%20Page.png)
+
 
