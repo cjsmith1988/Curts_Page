@@ -118,6 +118,7 @@ main {
   float: left;
   box-shadow: 0px 10px 20px rgba(146, 204, 206, 0.8);
   border-radius: 20px;
+  margin-bottom: 20px;
 }
 
 .hero-banner h2 {
@@ -129,6 +130,7 @@ main {
   line-height: 1.2;
   float: right;
   display: inline;
+  margin-bottom: 20px;
 }
 
 .page-wrapper {
@@ -261,6 +263,11 @@ main {
 
 .date-concierge {
   background-image: url("../images/02-date-concierge.JPG");
+  background-size: 100%;
+}
+
+.milestone {
+  background-image: url("../images/MiletstoneScreenGrab.PNG");
   background-size: 100%;
  
 }
