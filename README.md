@@ -1,5 +1,4 @@
-[Dr. Ken Lunde](mailto:lunde@adobe.com?subject=[GitHub]%20Source%20Han%20Sans)
-**Project name**: Advanced CSS Challenge: Professional Portfolio
+**Project name**: Professional Portfolio
 
 **Description**: This project was to initialize our profile page and to test our HTML and CSS knowledge.
 
